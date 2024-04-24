@@ -11,4 +11,7 @@ Publisher mengirimkan 5 events ke subscribernya
 spike terjadi saat pesan/event dikirim.
 
 ![](img3.png "")
-queuenya menjadi lebih panjang karena pengiriman secara asynschonous.
+queuenya menjadi lebih panjang karena subscribernya hanya 1 saja.
+
+![](img4.png "")
+queuenya menjadi lebih panjang karena subscribernya ada banyak sehingga jika 1 subscriber tidak ready, maka akan dilimpahkan ke subscriber lainnya.
