@@ -8,5 +8,7 @@ Publisher mengirimkan 5 events ke subscribernya
 <br/>
 
 ![](img2.png "")
-
 spike terjadi saat pesan/event dikirim.
+
+![](img3.png "")
+queuenya menjadi lebih panjang karena pengiriman secara asynschonous.
